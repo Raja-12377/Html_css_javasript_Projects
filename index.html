@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>AB Movies</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+     
+     <div class="navbar">
+     <h1>AB Movies</h1>
+     </div>
+
+     <div class="container">
+          <div class="book-container">
+                <h2>LEO</h2>
+                <h4>Act : Thalapathy Vijay || Dir : Lokesh </h4>
+                <p>Leo was released worldwide on 19 October 2023 in standard and IMAX formats to mixed reviews from critics, with praise for Vijay's performance, technical aspects and the action sequences while the writing received criticism. It set several box office records for a Tamil film, emerging as the second highest-grossing Tamil film of 2023, the seventh highest-grossing Indian film of 2023, third highest-grossing Tamil film of all time, the highest-grossing Tamil film overseas and the highest-grossing film in Tamil Nadu.</p>
+                <button onclick="deleteff(event)">Delete</button>
+          </div>
+     </div>
+
+
+     <div class="popup-overlay"></div>  
+
+     <div class="popup-box">
+          <h2> Add Movie </h2>
+          <form>
+             <input type="text" placeholder="Movie name" id="name-input">
+             <input type="text" placeholder="Act : (name) || Dir : (name)" id="actor-input">
+             <textarea placeholder="About the movie" id="about-des"></textarea> 
+             <button id="popup-add">Add</button>
+             <button id="popup-cancel">Cancel</button>
+          </form>
+     </div>
+    
+
+     <button class="add-button" id="add-popup-button">+</button>
+     <script src="script2.js"></script>
+
+
+</body>
+</html>
